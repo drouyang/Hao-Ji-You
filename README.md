@@ -11,13 +11,13 @@ A python backend application is included in this package as well, which
 currently only echo what ever received.
 
 ## Usage
-1. start backend server
+* start backend server
 ```bash
 $ cd desktop-backend
 $ python haojiyou.py
 ```
 
-2. start frontend, note that directly open the html file in the browser would
+* start frontend, note that directly open the html file in the browser would
 not have access to the microphone. A workaround is to use a simple http server
 like python SimpleHttpServer.
 ```bash
@@ -25,4 +25,4 @@ $ cd browser-frontend
 $ python -m SimpleHTTPServer
 ```
 
-3. In Chrome, open http://localhost:8000/
+* In Chrome, open http://localhost:8000/
